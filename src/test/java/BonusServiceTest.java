@@ -59,6 +59,7 @@ public class BonusServiceTest {
 
         long actual = service.calculate(amount, registered);
     }
+<<<<<<< HEAD
 
     @Test
     void shouldCalculateForRegisteredAndOverLimit1() {
@@ -72,3 +73,6 @@ public class BonusServiceTest {
         long actual = service.calculate(amount, registered);
     }
 }
+=======
+}
+>>>>>>> e3499136e2513d8e96310f91618fbd0cf956153e
