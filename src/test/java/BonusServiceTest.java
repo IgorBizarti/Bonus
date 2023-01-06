@@ -59,20 +59,4 @@ public class BonusServiceTest {
 
         long actual = service.calculate(amount, registered);
     }
-<<<<<<< HEAD
-
-    @Test
-    void shouldCalculateForRegisteredAndOverLimit1() {
-        BonusService service = new BonusService();
-
-        // подготавливаем данные:
-        long amount = 1_000_0000;
-        boolean registered = true;
-        long expected = 500;
-
-        long actual = service.calculate(amount, registered);
-    }
 }
-=======
-}
->>>>>>> e3499136e2513d8e96310f91618fbd0cf956153e
