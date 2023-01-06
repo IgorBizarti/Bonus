@@ -59,4 +59,17 @@ public class BonusServiceTest {
 
         long actual = service.calculate(amount, registered);
     }
+
+
+    @org.junit.jupiter.api.Test
+    void shouldCalculateForUnRegisteredAndOverLimit1() {
+        BonusService service = new BonusService();
+
+        // подготавливаем данные:
+        long amount = 1_000_0000;
+        boolean registered = false;
+        long expected = 500;
+
+        long actual = service.calculate(amount, registered);
+    }
 }
